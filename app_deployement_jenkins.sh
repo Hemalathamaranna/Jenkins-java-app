@@ -12,7 +12,7 @@ namespace=${branchname}
 fi
 echo "${namespace}"
 echo "${GIT_URL}"
-appname=${GIT_URL//"https://github.com/srinub/"/""}
+appname=${GIT_URL//"https://github.com/Hemalathamaranna/"/""}
 echo "${appname}"
 deploymentname="${appname}-deployment"
 echo "${deploymentname}"
